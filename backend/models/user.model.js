@@ -25,6 +25,18 @@ const userSchema = new mongoose.Schema(
 			type: String,
 			default: "",
 		},
+		banner:{
+			type: String,
+			default: "",
+		},
+		bio:{
+			type: String,
+			default: "",
+		},
+		location:{
+			type: String,
+			default: "Hyderabad, Manikonda",
+		}
 		// createdAt, updatedAt => Member since <createdAt>
 	},
 	{ timestamps: true }
